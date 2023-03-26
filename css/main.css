@@ -618,7 +618,13 @@ p {
     width: 400px;
 }
 
+.category-main-left-index{
+    display: none;
+}
 
+.category-main-left-text-index{
+    display: none;
+}
 
 
 
@@ -640,11 +646,20 @@ p {
     }
 
     .category-main-left {
-        display: none;
-        border: none;
-        justify-content: space-around;
-
+       display: none;
     }
+
+    .category-main-left-index{
+        display: block;
+        margin-right: 20px;
+        border: 1px solid var(--main-text-color);
+        padding: 10px;  
+    }
+    
+    .category-main-left-text-index{
+        display: block;
+    }
+    
 
     .category-main-right-container-rule-number {
         border-left: 1px solid var(--main-text-color);

@@ -80,9 +80,14 @@ a {
 
 .ment {
     color: white;
-    background-color: #647beb;
+    background-color: #343c66;
     border-radius: 6px;
     padding: 2px 2px;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+.ment:hover {
+    background-color: #647beb;
 }
 
 

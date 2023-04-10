@@ -91,6 +91,13 @@ a {
     background-color: #647beb;
 }
 
+
+.aboba {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
 #profile {
     padding: 4px 4px 50px 4px;
     position: relative;
@@ -102,13 +109,13 @@ a {
     background: linear-gradient(180deg, rgba(247, 186, 156, 1) 0%, rgba(117, 83, 150, 1) 100%, rgba(190, 190, 230, 1) 100%);
     margin-bottom: -40px;
     border-radius: 4px;
+    margin-right: 20px;
 }
 
 #profile2 {
     padding: 4px 4px 50px 4px;
-    position: absolute;
-    top: 7785px;
-    right: 600px;
+    position: relative;
+    right: 20px;
     display: none;
     width: 320px;
     height: 400px;
@@ -116,13 +123,13 @@ a {
     background: linear-gradient(180deg, rgba(241, 173, 145, 1) 0%, rgba(99, 199, 219, 1) 100%, rgba(190, 190, 230, 1) 100%);
     margin-bottom: -40px;
     border-radius: 4px;
+    margin-right: 20px;
 }
 
 #profile3 {
     padding: 4px 4px 50px 4px;
-    position: absolute;
-    top: 7785px;
-    right: 250px;
+    position: relative;
+    right: 20px;
     display: none;
     width: 320px;
     height: 400px;
@@ -130,13 +137,13 @@ a {
     background: linear-gradient(180deg, rgba(190, 70, 166, 1) 0%, rgba(50, 38, 121, 1) 100%, rgba(190, 190, 230, 1) 100%);
     margin-bottom: -40px;
     border-radius: 4px;
+    margin-right: 20px;
 }
 
 #profile4 {
     padding: 4px 4px 50px 4px;
-    position: absolute;
-    top: 7785px;
-    right: -100px;
+    position: relative;
+    right: 20px;
     display: none;
     width: 320px;
     height: 400px;
@@ -147,9 +154,10 @@ a {
 }
 
 #profile5 {
+    margin-top:10px;
     padding: 4px 4px 50px 4px;
     position: relative;
-    right: -500px;
+    right: -520px;
     top: 50px;
     display: none;
     width: 320px;

@@ -99,7 +99,6 @@ a {
 }
 
 #profile {
-    pointer-events: none;
     user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;
@@ -117,7 +116,6 @@ a {
 
 
 #profile2 {
-    pointer-events: none;
     user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;
@@ -133,7 +131,6 @@ a {
 }
 
 #profile3 {
-    pointer-events: none;
     user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;
@@ -149,7 +146,6 @@ a {
 }
 
 #profile4 {
-    pointer-events: none;
     user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;
@@ -164,7 +160,6 @@ a {
 }
 
 #profile5 {
-    pointer-events: none;
     user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;

@@ -99,6 +99,8 @@ a {
 }
 
 #profile {
+    pointer-events: none;
+    user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;
     right: 20px;
@@ -112,7 +114,11 @@ a {
     margin-right: 20px;
 }
 
+
+
 #profile2 {
+    pointer-events: none;
+    user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;
     right: 20px;
@@ -127,6 +133,8 @@ a {
 }
 
 #profile3 {
+    pointer-events: none;
+    user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;
     right: 20px;
@@ -141,6 +149,8 @@ a {
 }
 
 #profile4 {
+    pointer-events: none;
+    user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;
     right: 20px;
@@ -154,6 +164,8 @@ a {
 }
 
 #profile5 {
+    pointer-events: none;
+    user-select: none;
     padding: 4px 4px 50px 4px;
     position: relative;
     right: -520px;
@@ -169,6 +181,7 @@ a {
 
 .about-fi {
     font-size: 14px;
+    user-select: text;
 }
 
 
@@ -228,6 +241,7 @@ a {
 }
 
 .info {
+    color: rgb(202, 193, 193);
     margin: 0px 20px;
     padding: 20px 20px;
     border-radius: 4px;
@@ -236,6 +250,7 @@ a {
 }
 
 .info-tw {
+    color: rgb(202, 193, 193);
     margin: 0px 20px;
     padding: 20px 20px;
     border-radius: 4px;
@@ -244,6 +259,7 @@ a {
 }
 
 .info-chuh {
+    color: rgb(202, 193, 193);
     margin: 0px 20px;
     padding: 20px 20px;
     border-radius: 4px;
@@ -252,6 +268,7 @@ a {
 }
 
 .info-sav {
+    color: rgb(202, 193, 193);
     margin: 0px 20px;
     padding: 20px 20px;
     border-radius: 4px;
@@ -260,6 +277,7 @@ a {
 }
 
 .info-fi {
+    color: rgb(202, 193, 193);
     margin: 0px 20px;
     padding: 20px 20px;
     border-radius: 4px;
@@ -317,6 +335,7 @@ a {
 
 .nickname {
     color: white;
+    user-select: text;
 }
 
 .tag {
@@ -326,6 +345,10 @@ a {
 .about-title {
     font-size: 12px;
     margin-bottom: 15px;
+}
+
+.about{
+    user-select: text;
 }
 
 .in-rev-head {

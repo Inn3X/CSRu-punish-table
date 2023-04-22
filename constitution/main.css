@@ -490,12 +490,26 @@ p {
     margin-left: 25px;
 }
 
-h2::before {
+.goto{
+    text-decoration: none;
+    color: var(--headline-color);
+}
+.d1 span{
+    position: absolute;
+    left: -23px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+.d1 span:hover{
+    cursor: pointer;
+}
+/* h2::before {
     color: var(--main-text-color);
     position: absolute;
     content: "#";
     left: -23px;
-}
+} */
 
 .example-before::before {
     color: var(--main-text-color);

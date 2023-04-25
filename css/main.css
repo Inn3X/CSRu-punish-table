@@ -375,6 +375,23 @@ p {
 }
 
 
+.hide {
+    color: #000;
+    cursor: help;
+}
+
+.hide:hover::after{
+    background-color: #33363b;
+    padding: 3px;
+    border-radius: 6px;
+    position: absolute;
+    width: auto;
+    bottom: 50px;
+    right: 35px;
+    content: 'Опа, а шо это такое...';
+    font-size: 20px;
+}
+
 
 
 .category-main-element-14 {

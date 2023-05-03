@@ -24,6 +24,7 @@
     --user-admin-color: #f5733b;
     --switcher-content: "🌑";
     --bg_emb: #797474;
+    --bg_emb_hover: #5a5757;
     --color_emb:#c9c9c9;
 }
 
@@ -38,8 +39,9 @@
     --user-color: #f5a43b;
     --user-admin-color: #f5733b;
     --switcher-content: "☀️";
-    --bg_emb: #383838;
-    --color_emb: #9f9f9f;
+    --bg_emb: #585757;
+    --bg_emb_hover: #424141;
+    --color_emb: #000000;
 }
 
 html {
@@ -199,6 +201,28 @@ a {
 
 .example-right{
     margin-left: 30px;
+}
+
+.exam{
+    border: none; 
+    outline: none;
+    margin-top: 90px;
+    width: 500px;
+    height: 50px;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: var(--bg_emb);
+    color: var(--color_emb);
+    /* position: relative; */
+    text-align: center;
+    margin-bottom: 150px;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+.exam:hover{
+    background-color: var(--bg_emb_hover)
 }
 
 

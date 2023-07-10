@@ -1,4 +1,2 @@
 order deny,allow
 deny from all
-
-allow from 188.191.21.89

@@ -116,6 +116,13 @@ a {
     font-size: 12px;
 }
 
+
+.anket_div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .orange{
     color: rgb(243, 118, 1);
 }

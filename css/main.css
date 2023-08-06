@@ -126,6 +126,7 @@ html {
     color: var(--main-text-color);
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    scroll-padding-top: 600px;
 }
 
 body {
@@ -245,6 +246,7 @@ p {
 
 .example-p {
     padding: 2px 5px;
+    margin-bottom: 5px;
     border-radius: 3px;
     position: relative;
     background-color: var(--text-block-bg-color);

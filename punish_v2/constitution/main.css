@@ -101,7 +101,7 @@ a {
 
 #profile {
     user-select: none;
-    padding: 4px 4px 105px 4px;
+    padding: 4px 4px 50px 4px;
     position: relative;
     right: 20px;
     display: none;
@@ -343,7 +343,7 @@ a {
     margin-bottom: 15px;
 }
 
-.about {
+.about{
     user-select: text;
 }
 
@@ -355,59 +355,6 @@ a {
 
 .in-rev-desc {
     font-size: 14px;
-}
-
-.role-head {
-    margin-top: 20px;
-    font-size: 12px;
-}
-
-.roles {
-    margin-top: 10px;
-    font-size: 12px;
-
-}
-/* #48484f */
-.staff-role {
-    border: #48484f solid;
-    border-width: 1px;
-    background-color: #1b1b23;
-    border-radius: 4px;
-    padding: 3px 10px;
-
-}
-
-.staff-role::before {
-    position: relative;
-    bottom: -1px;
-    width: 11px;
-    height: 11px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: inline-block;
-    content: " ";
-    margin-right: 5px;
-}
-
-.admin-role {
-    margin-left: 3px;
-    border: #48484f solid;
-    border-width: 1px;
-    background-color: #1b1b23;
-    border-radius: 4px;
-    padding: 3px 10px;
-}
-
-.admin-role::before {
-    position: relative;
-    bottom: -1px;
-    width: 11px;
-    height: 11px;
-    background-color: #eb6600;
-    border-radius: 50%;
-    display: inline-block;
-    content: " ";
-    margin-right: 5px;
 }
 
 .chat {
@@ -443,7 +390,7 @@ main {
 
 
 .all {
-    opacity: 0;
+    opacity: 1;
     animation-name: mai;
     animation-duration: 0.7s;
     animation-delay: 2.4s;
@@ -485,7 +432,7 @@ main {
     font-size: 24px;
 }
 
-@keyframes mai {
+/* @keyframes mai {
     0% {
         opacity: 0;
         display: none;
@@ -513,7 +460,7 @@ main {
         display: none;
     }
 
-}
+} */
 
 p {
     color: var(--main-text-color);
@@ -544,23 +491,20 @@ p {
     margin-left: 25px;
 }
 
-.goto {
+.goto{
     text-decoration: none;
     color: var(--headline-color);
 }
-
-.d1 span {
+.d1 span{
     position: absolute;
     left: -23px;
     font-size: 24px;
     font-weight: 700;
     color: var(--main-text-color);
 }
-
-.d1 span:hover {
+.d1 span:hover{
     cursor: pointer;
 }
-
 /* h2::before {
     color: var(--main-text-color);
     position: absolute;

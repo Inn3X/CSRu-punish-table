@@ -245,6 +245,7 @@ p {
 
 .example-p {
     padding: 2px 5px;
+    margin-bottom: 5px;
     border-radius: 3px;
     position: relative;
     background-color: var(--text-block-bg-color);

@@ -390,7 +390,7 @@ main {
 
 
 .all {
-    opacity: 1;
+    opacity: 0;
     animation-name: mai;
     animation-duration: 0.7s;
     animation-delay: 2.4s;
@@ -432,7 +432,7 @@ main {
     font-size: 24px;
 }
 
-/* @keyframes mai {
+@keyframes mai {
     0% {
         opacity: 0;
         display: none;
@@ -460,7 +460,7 @@ main {
         display: none;
     }
 
-} */
+}
 
 p {
     color: var(--main-text-color);
@@ -501,9 +501,12 @@ p {
     font-size: 24px;
     font-weight: 700;
     color: var(--main-text-color);
+    transition: all 0.2s ease;
 }
 .d1 span:hover{
     cursor: pointer;
+    color:gray;
+
 }
 /* h2::before {
     color: var(--main-text-color);

@@ -382,7 +382,7 @@ p {
     cursor: help;
 }
 
-.hide:hover::after{
+.hide:hover::after {
     background-color: #33363b;
     padding: 3px;
     border-radius: 6px;
@@ -710,7 +710,7 @@ p {
         margin-left: 20%;
     }
 
-    .pres-phone a{
+    .pres-phone a {
         text-decoration: none;
         color: #ff8c00;
         transition-duration: 0.1s;
